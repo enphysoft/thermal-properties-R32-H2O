@@ -21,4 +21,4 @@ cln:
 
 all: cln cmp lnk run
 
-# cat results/ref_thermo_H2O.dat | sed "/^.$/d" | awk '{print "roh[",$1,"][",$2,"]=", $5,";"}' | sed "s/ //g"
+ 
